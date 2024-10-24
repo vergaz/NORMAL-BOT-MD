@@ -98,12 +98,12 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   });
 
 
-zokou({ nomCom: "gpt", reaction: "🤔", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "popkid", reaction: "🤔", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
       if (!arg || arg.length === 0) {
-        return repondre(`Please ask a question.`);
+        return repondre(`Yes ask me anything .`);
       }
   
       // Regrouper les arguments en une seule chaîne séparée par "-"
