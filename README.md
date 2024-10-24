@@ -1,57 +1,151 @@
-# NORMAL-BOT-MD
-<a href="https://ibb.co/zfd01dv"><img src="https://i.ibb.co/LpK2MK7/1728892250720.jpg" alt="1728892250720" border="0"></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+#        𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
 
-
-<p align="center">                                                  POPKID--MD 
-  
-
-</p>
+   <a>
+                                      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=F71515&width=435&lines=BOT+100%25+LEGIT" alt="Typing SVG" /></a>   
+            
 <p align="center"> 
-  <a href="https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l">
-  
- 
- 
+<up A simple WhatsApp User Bot Coded By Popkid</u>
+</p>
+<p align="center">
+<img src="https://i.ibb.co/LpK2MK7/1728892250720.jpg"/>       
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=25&duration=4000&pause=1000&random=false&width=435&lines=+•__I'M+POPKID-+MD__•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+POPKID+MD+TECHS;RELEASED+DATE+07%2F7%2F2024."                               alt="Typing SVG" /></a>
+</p> 
+<p align="center">
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-POPKID_TECH-red.svg?style=for-the-badge&logo=github"></a>
+</a>
+</p>
+<p align="center">
+<a href="https://github.com/Kgtech-cmr"><img title="Author" src="https://img.shields.io/badge/KGTECH-black?style=for-the-badge&logo=Github"></a> <a href="https://chat.whatsapp.com/FpxvVBFOozA6IhNxIWhwFw"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/237656520674"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp">
+<p/>
+
+ <p align="center">
+  <a href="https://kg-site-support.vercel.app/">
+    <img src="https://img.shields.io/badge/KG WEBSITE-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Generate Session ID"/>
+  </a>
+   
+<p align="center">
+<a href="https://github.com/Kgtech-cmr/KERM_MD-V2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Kgtech-cmr/KERM_MD-V2?color=white&style=flat-square"></a>
+<a href="https://github.com/Kgtech-cmr/KERM_MD-V2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kgtech-cmr/KERM_MD-V2?color=yellow&style=flat-square"></a>
+<a href="https://github.com/Kgtech-cmr/KERM_MD-V2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Kgtech-cmr/KERM_MD-V2?label=Watchers&color=red&style=flat-square"></a>
+<a href="https://github.com/Janithsadanuwan/Queen-Nilu-Md/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Janithsadanuwan/Queen-Nilu-Md/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
+        <a href = ""><img alt="KermHack Tools" src="https://img.shields.io/youtube/channel/subscribers/UCjDKRYcwd5ZIpGICcVVL96Q" target="_blank" /></a>
+
+### 1. FORK THIS REPO
+
+<a href='https://github.com/Kgtech-cmr/KERM_MD-V2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<p align="center">
+
+#### 𝐒𝐄𝐓𝐔𝐏
 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=THIS+IS+POPKID-MD+MADE+IN+KENYA+🎖️🥇" alt="Typing SVG" /></a>
+1.𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐅𝐑𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑
 
+<a href="https://kgtech-v2-session.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
+<a href="https://kgtech-v2-session.onrender.com/wasiqr"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a> 
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+## How To Deploy On Github.
+* [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/T77rQM7Nk5k?si=gg-LJxS6vC6kBEpJ)
 
+• Create a new file [`.github/workflows/deploye.yml`] After created, copy this code👇🏽and paste it there
+```yml
+name: Node.js CI
 
-#### SETUP 
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: '0 */6 * * *'  # Relance toutes les 6 heures
 
+jobs:
+  build:
 
-[`FORK`](https://github.com/Popkiddevs/NORMAL-BOT-MD/fork)
+    runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [20.x]
 
- 
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
 
-[`PAIRING CODE`](https://popkid-sessions-generator.onrender.com/)
- 
+    - name: Install dependencies
+      run: npm install
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+    - name: Install FFmpeg
+      run: sudo apt-get install -y ffmpeg
 
+    - name: Start application with timeout
+      run: |
+        timeout 21590s npm start  # Limite l'exécution à 5h 59m 50s
 
+    - name: Save state (Optional)
+      run: |
+        ./save_state.sh
+```
 #### DEPLOY TO HEROKU 
-1. `If You Don't Have An Account On Heroku`
 
-- <a align="center"><a href="https://signup.heroku.com">
- <img src="https://img.shields.io/badge/Create%20Account%20Now-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+1. If You don't have a account in Heroku. Create a account.
+    <br>
+<a href='https://heroku.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku'/></a>
+   <br>
+2. Now Deploy
+    <br>
+<a href='https://heroku.com/deploy?template=https://github.com/Kgtech-cmr/KERM_MD-V2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
 
-2. `If You Have a Heroku Account`
+#### DEPLOY TO KOYEB 
 
-  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Popkiddevs/NORMAL-BOT-MD"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-yellow?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+1. If You don't have a account in koyeb. Create a account.
+    <br>
+<a href='https://app.koyeb.com/auth/signup' target="_blank"><img alt='koyeb' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb'/></a>
 
+2. Get [Koyeb api key](https://app.koyeb.com/account/api)
 
-#### DEPLOY ON RENDER 
-1. `If You Don't Have An Account On Render`
-- <a href="https://dashboard.render.com/register"><img src="https://img.shields.io/badge/CREATE AN ACCOUNT NOW-h?color=red&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+4. Now Deploy
+    <br>
+<a href='https://app.koyeb.com/services/deploy?type=git&repository=https://github.com/Kgtech-cmr/KERM_MD-V2&branch=main&name=xbotmd&builder=dockerfile&env[SESSION_ID]=%20&env[WORK_TYPE]=private&env[HANDLER]=.&env[BOT_INFO]=KERM_MD-V2;ASWIN%20SPARKY;https://i.imgur.com/QH7T7u9.jpeg&env[SUDO]=237656520674,237650564445&env[STICKER_DATA]=KG TECH&env[DATABASE_URL]' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
 
-2. `If You Have an account on Render`
-- <a href="https://render.com"><img title="Deploy Now" src="https://img.shields.io/badge/DEPLOY NOW-h?color=red&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+#### DEPLOY ON RAILWAY
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+1. If You don't have a account in Railway. Create a account.
+    <br>
+<a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/>
+2. Now Deploy
+    <br>
+<a href='https://railway.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+
+#### DEPLOY ON MOGENIUS
+
+1. If You don't have a account in Replit. Create a account.
+    <br>
+<a href='https://mogenius.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=genius'/></a>
+2. Now Deploy
+    <br>
+<a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
+
+  **Do not forget to give a star⭐️ please**
+
+### A special thank to
+
+<details close>
+<summary>Read More</summary>
+
+<br>
+
+* [`ARTHUR SASAKI`](https://github.com/Alp24ni)
+* ## Contact Dev of KERM🤪
+* [`RAYAN`](https://wa.me/237656520674?text=Hi+Bro+Rayan+Big+Fan😍)
+* [`GIFFARENO`](https://wa.me/237650564445?text=Hi+Bro+Giffareno+Big+Fan😍)
+ </details>
