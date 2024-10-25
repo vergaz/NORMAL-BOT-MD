@@ -15,7 +15,7 @@ zokou({
   const { ms, repondre, arg } = commandeOptions;
      
   if (!arg[0]) {
-    repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura._");
+    repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura⚽._");
     return;
   }
 
@@ -36,7 +36,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*©mr anyway*_`
+_*©mr popkid*_`
        }
 
       
