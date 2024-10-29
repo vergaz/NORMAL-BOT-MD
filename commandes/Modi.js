@@ -107,7 +107,7 @@ zokou({
         // Prepare the message with song details
         const infoMess = {
           image: { url: videos[0].thumbnail },
-          caption: `*CHARITY-MD SONG PLAYER*\n
+          caption: `*POPKID-MD SONG PLAYER*\n
 ╭───────────────◆
 │ *Title:* ${videos[0].title}
 │ *Quality:* mp3 (320kbps)
@@ -118,7 +118,7 @@ zokou({
 ╰────────────────◆
 ⦿ *Direct YtLink:* ${videoUrl}
 ╭────────────────◆
-│ *_𝗥𝗲𝗴𝗮𝗿𝗱𝘀 𝗖̼𝗔̼𝗦̼𝗘̼𝗬̼𝗥̼𝗛̼𝗢̼𝗗̼𝗘̼𝗦̼._*
+│ *_𝗥𝗲𝗴𝗮𝗿𝗱𝘀 POPKID✅._*
 ╰─────────────────◆`
         };
 
@@ -131,7 +131,7 @@ zokou({
           mimetype: 'audio/mp4'
         }, { quoted: ms });
        
-        repondre('*Charity md has just downloaded your song*...');
+        repondre('*Popkid md has just downloaded your song*...');
       } else {
         repondre('Failed to download audio. Please try again later.');
       }
@@ -178,7 +178,7 @@ zokou({
         // Prepare the message with video details
         const infoMess = {
           image: { url: videos[0].thumbnail },
-          caption: `*CHARITY-MD VIDEO PLAYER*\n
+          caption: `*POPKID-MD VIDEO PLAYER*\n
 ╭───────────────◆
 │ *Title:* ${videos[0].title}
 │ *Quality:* 720p-HD
@@ -189,7 +189,7 @@ zokou({
 ╰────────────────◆
 ⦿ *Direct YtLink:* ${videoUrl}
 ╭────────────────◆
-│ *_𝗥𝗲𝗴𝗮𝗿𝗱𝘀 𝗖̼𝗔̼𝗦̼𝗘̼𝗬̼𝗥̼𝗛̼𝗢̼𝗗̼𝗘̼𝗦̼._*
+│ *_𝗥𝗲𝗴𝗮𝗿𝗱𝘀 POPKID._*
 ╰─────────────────◆`
         };
 
@@ -199,11 +199,11 @@ zokou({
         // Send the video as a URL (direct download link)
         await zk.sendMessage(dest, {
           video: { url: videoDlUrl },
-      caption: "*𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐂𝐇𝐀𝐑𝐈𝐓𝐘*",
+      caption: "*𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐏𝐎𝐏𝐊𝐈𝐃*",
           mimetype: 'video/mp4'
         }, { quoted: ms });
 
-        repondre('*Charity md has just downloaded your video*...');
+        repondre('*Popkid md has just downloaded your video*...');
       } else {
         repondre('Failed to download the video. Please try again later.');
       }
