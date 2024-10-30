@@ -1,49 +1,133 @@
-name: SLSA generic generator
-on:
-  workflow_dispatch:
-  release:
-    types: [created]
+{
+  "name":"POPKID",
+  "description":"Best whatsapp bot developed by POPKID",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://i.ibb.co/YbKtM3b/IMG-20241024-WA0298-1.jpg",
+  "repository":"https://github.com/Popkiddevs/NORMAL-BOT-MD",
+  "succes_url":"/",
+  "stack":"container",
+  "env":{
+    "PREFIX":
+    {
+      "description":"choose your prefix of bot",
+      "value":".",
+      "required":true
+    },
+    "AUTO_READ_STATUS":
+    {
+      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+     "PM_PERMIT" :
+     {
+      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+    "BOT_NAME" : {
+       
+      "description":"put A name for your bot",
+      "value":"ᴘᴏᴘᴋɪᴅ ᴍᴅ",
+      "required":false
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    outputs:
-      digests: ${{ steps.hash.outputs.digests }}
+    } ,
+     "BOT_MENU_LINKS" : {
+    
+      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "value":"https://i.ibb.co/YbKtM3b/IMG-20241024-WA0298-1.jpg",
+      "required":false
+       
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"type yes to put your bot on public mode or no to put it on private mod",
+      "value":"yes",
+      "required":false
+    }
+	,
+    "HEROKU_API_KEY": {
+    "description": "insert your heroku api-key (this is optionnal)",
+     "required" :false
+    },
+  "HEROKU_APP_NAME": {
+    "description": "insert your heroku APP NAME (this is optionnal)",
+     "required" :false
+    }  
+	  ,
+    "SESSION_ID":
+    {
+      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMkFlcTdCZXBRa05DZWZlcEJHZysxVjZCaHgvRDNJUHVIWWRJTUwwV1YzQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS3Q4RmUrenJNRUNocUh6dW01WEEwWEphNmp6M3ZNMFZ1ZDYyelFybk9qVT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQWw2RFVoc2ZwVVRGZkN3RFZsd1U1bUcva09oOFc3S0dyNWJKa2lyMGtvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJyRGpYdFhycUJ0WEw0OSt5NnYxdXlySFdiNTlaSTM3ajJzTzBpcDhiQUhRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdQYmJOWlh5TjE2eWdweGJwT2YrMmoyNlRCdTFnVUk2L25KTlUwZGIyVkE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkE1N0NZWmFha2RzSWFHTm9JbVcyZWx2WUc1eGN1MkZxZ2tQTmxrTFNDMmc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVUdOQ0hWcHRhZkdpTXFVV2pkNGZQa0kwU2pJb0U2SjUxam5xWU1RZUFFRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiekc1cUp0OC9nQWM1T0ZZSnMwUSthOHducEtFS1lwR282U3FOaHhsWFlVdz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InM0L252ZnhkRXRTL1N0VnJNV1dRYi9DRGRxK1N6OVgzaXdFRWhsNVF5STVvd3hUYUdCZ2g3ZGNaTEFjK0tRZnAyOFVxaCtEM25PN1FWa2Q4am9uQ0FnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE5LCJhZHZTZWNyZXRLZXkiOiJFRVRhTnNxUW5NZXFPOXlLSGd4ekkvTTZXdVpHR2lldG5sUUpXSm5LVWFNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiI0UkhmTFQzeVFfYV9LX1ZNWHVnRklRIiwicGhvbmVJZCI6IjE1OTMwOWQ5LWJlODctNGZkYy1iOGI1LWNhZjdlNjAxOTk1YyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4NE95ME1WYUdTTW83TXUxMDM3NHArVHh2cXM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVVJocmhTK05xQUd6bUwvRjZJbE9qVzZJTUd3PSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjZLSlpKQlNFIiwibWUiOnsiaWQiOiIyNTQ3NTg4MzgzMzQ6MjJAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0t5eCtXd1FySWlJdVFZWUFTQUFLQUE9IiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ind4aUlvaDZYbUtnNjBZOTNTYXJ6ekFqcndGRG9BK2xRR3ZDQ0VtUW9CaWc9IiwiYWNjb3VudFNpZ25hdHVyZSI6InJXYWczOEM4S1ZvdlduOEk2TGhlZ2tERTNwMm5qbW9sZE52cXI5d1lqdlduRW1yZm5LNW9GcURSbW41SCtDTEpvVnhFZk52ZyswTnp6MUdrV0ZGMEJnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJ3V3h3WnJKYWV4Y2szdkJ5TGIzZGhHc2JHZVhCNFk3cWc4VW56R0ZWVTJGWVVUQTdZVWM0dEJpRThOOE90Ti9LQ1pjbWx2TXkrSmtBVGFBNXlxTE1Bdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDc1ODgzODMzNDoyMkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJjTVlpS0llbDVpb090R1BkMG1xODh3STY4QlE2QVBwVUJyd2doSmtLQVlvIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzMwMjgyNTU0LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQU5meCJ9",
+      "required":true
+      
+    },
+    "OWNER_NAME":
+    {
+    
+    "desc": "Your Name",
+    "required": false,
+    "value": "ℙ𝕆ℙ 𝕂𝕀𝔻"
+  },
+    "NUMERO_OWNER":
+  {
+    
+    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "required":false,
+    "value": "254758838334"
+  },
+    "WARN_COUNT":
+  {
+    "desc": "this is the limit of warn for warning commandes",
+    "required": false,
+    "value": "3"
+  },
+  "STARTING_BOT_MESSAGE":
+  {
+    "description": "if you don't want startting-bot-message put no else put yes",
+    "required": true,
+    "value": "yes"
+  },
+  "PRESENCE":{
+    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"",
+    "required": false
+  },
+  "ANTI_DELETE_MESSAGE" : {
+    "description": "if you want to enable anti delete message put yes else put no",
+    "value": "yes",
+        "required": false
+  }
+  },
 
-    steps:
-      - uses: actions/checkout@v4
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
 
-      # ========================================================
-      #
-      # Step 1: Build your artifacts.
-      #
-      # ========================================================
-      - name: Build artifacts
-        run: |
-            # These are some amazing artifacts.
-            echo "artifact1" > artifact1
-            echo "artifact2" > artifact2
-
-      # ========================================================
-      #
-      # Step 2: Add a step to generate the provenance subjects
-      #         as shown below. Update the sha256 sum arguments
-      #         to include all binaries that you generate
-      #         provenance for.
-      #
-      # ========================================================
-      - name: Generate subject for provenance
-        id: hash
-        run: |
-          set -euo pipefail
-
-          # List the artifacts the provenance will refer to.
-          files=$(ls artifact*)
-          # Generate the subjects (base64 encoded).
-          echo "hashes=$(sha256sum $files | base64 -w0)" >> "${GITHUB_OUTPUT}"
-
-  provenance:
-    needs: [build]
-    permissions:
-      actions: read   # To read the workflow path.
-      id-token: write # To sign the provenance.
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ]
+}
